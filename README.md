@@ -34,13 +34,13 @@ or a model configured.
 
 ### Migrations
 
-- Write a migration for the actors table. An actor should have a `first_name`
+x Write a migration for the actors table. An actor should have a `first_name`
   and a `last_name`.
-- Write a migration for the characters table. A character should have a `name`,
+x Write a migration for the characters table. A character should have a `name`,
   `actor_id`, and a `show_id`––a character will belong to a show (the show
   migration is already provided) and an actor, and we'll keep track of this
   relationship with these database table columns.
-- Write a migration that adds the column `catchphrase` to your character model.
+x Write a migration that adds the column `catchphrase` to your character model.
 
 ### Associations
 
