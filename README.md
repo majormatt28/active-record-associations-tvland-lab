@@ -44,11 +44,11 @@ x Write a migration that adds the column `catchphrase` to your character model.
 
 ### Associations
 
-- Associate the `Actor` model with the `Character` and `Show` model. An actor
+x Associate the `Actor` model with the `Character` and `Show` model. An actor
   should have many characters and many shows through characters.
-- Write a method in the `Actor` class, `#full_name`, that returns the first and
+x Write a method in the `Actor` class, `#full_name`, that returns the first and
   last name of an actor.
-- Write a method in the `Actor` class, `#list_roles`, that lists all of the
+x Write a method in the `Actor` class, `#list_roles`, that lists all of the
   characters that actor has alongside the show that the character is in. So, for
   instance, if we had an actor, Peter Dinklage, a character, Tyrion Lannister,
   and a show, Game of Thrones, we with
@@ -69,7 +69,7 @@ x Write a migration that adds the column `catchphrase` to your character model.
     ['Tyrion Lannister - Game of Thrones']
     ```
 
-- Define a method in the `Character` class, `#say_that_thing_you_say`, using a
+x Define a method in the `Character` class, `#say_that_thing_you_say`, using a
   given character's catchphrase. Using Tyrion as an example again, the returned
   string should look like the following:
 
